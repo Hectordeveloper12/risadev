@@ -18,7 +18,7 @@
                 
             </div>
             <div class="botoes">
-            <a href=""><button class="btn-esquerdo">Contato</button></a>
+            <a href=""><button class="btn-esquerdo">Serviços</button></a>
             <a href=""><button class="btn-direito">Contato</button></a>
                 
             </div>
@@ -49,6 +49,7 @@
     img{
         position: absolute;
         bottom: -70px;
+        width: 11%;
     }
 }
 
@@ -56,20 +57,21 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
-    height: 100vh;
-    margin-top: 70px;
+    height: 91vh;
+    margin-top: 150px;
     font-family: "Inter", sans-serif;
+
     .lado-esquerdo{
         z-index: 100;
-        .conteudo-p {
-            
 
+        .conteudo-p {
             .titulo {
                 margin-top: 72px;
                 h1{
                     font-size: 4rem;
                     font-weight: 500;
                     color: var(--quinta-cor);
+                    text-align: left;
                 }
             }
 
@@ -103,6 +105,29 @@
             }
             }
         }
+
+        .redes{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            position: relative; 
+            top: 200px;
+            left: -200px;
+
+            p{
+                margin-bottom: 15px;
+                font-size: 12px;
+                color: var(--setima-cor);
+            }
+
+            .logo-redes {
+                img{
+                    padding: 0px 5px;
+
+                }
+            }
+        }
     }
 
     .lado-direito{
@@ -110,6 +135,7 @@
         img{
             position: relative;
             left: -22px;
+            width: 100%;
         }
     }
 }

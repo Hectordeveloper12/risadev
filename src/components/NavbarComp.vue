@@ -31,6 +31,8 @@
     width: 100%;
     height: 100px;
     font-family: "Inter", sans-serif;
+    position: absolute;
+    top: 0;
     .menu{
         ul{
         display: flex;
